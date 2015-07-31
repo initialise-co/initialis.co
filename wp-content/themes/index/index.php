@@ -14,8 +14,7 @@
 </header>
 <div id="container">
     <div id="content">
-
-
+    	<h1>Init.co</h1>
 
 	</div>
 </div>
