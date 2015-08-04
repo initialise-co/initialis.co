@@ -7,3 +7,30 @@ Version: 0.1
 
 
 */
+body {
+	background-color:#000;
+	font-size:16px;
+}
+header {
+	padding:20px;
+	min-height:40px;
+
+}
+.branding {
+	background-size:cover;
+	width:200px;
+	height:40px;
+	display:inline-block;
+	float:left;
+	margin-right:10px;
+}
+.branding-detail {
+	color:#fff;
+	font-weight:200;
+	font-size:1.25rem;
+	line-height:55px;
+	height:40px;
+	letter-spacing:0.15rem;
+	float:left;
+	display:none;
+}
