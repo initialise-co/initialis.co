@@ -13,11 +13,12 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-<did class="overlay"></div>
-<header class="header">
-	<div class="branding" style="background-image:url('<?php echo get_theme_mod('custom_logo_setting'); ?>');"></div>
-	<span class="branding-detail">Beta</span>
-</header>
+<div class="overlay"></div>
 <div id="container">
-    <div id="content">
+	<header class="header">
+		<div class="branding" style="background-image:url('<?php echo get_theme_mod('custom_logo_setting'); ?>');"></div>
+		<span class="branding-detail">Beta</span>
+	</header>
+	<div class="content">
+
     	
