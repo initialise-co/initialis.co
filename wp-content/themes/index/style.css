@@ -19,7 +19,7 @@ header {
 }
 .content {
 	position: absolute;
-  	top: 50%;
+  	top: 45%;
   	transform: translateY(-50%);
 }
 h1 {
@@ -33,6 +33,7 @@ p{
 	padding:0 5% 0 5%;
 	background:linear-gradient(60deg, orange, purple);
 	min-height:100vh;
+	height:100%;
 	width:90%;
 }
 a {
