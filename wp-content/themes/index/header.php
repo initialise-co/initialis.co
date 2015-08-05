@@ -11,6 +11,16 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="<?php echo bloginfo('template_directory').'/js/randomColor.js'; ?>"></script>
 <?php wp_head(); ?>
+<script type="text/javascript">
+	
+	var c1 = randomColor({hue: 'blue',luminosity: 'bright',count: 1});
+	var c2 = randomColor({hue: 'blue',luminosity: 'light',count: 1});
+
+	$(document).on('ready', function(){
+		$('#container').css('background', 'linear-gradient(60deg, '+ c1 + ', ' + c2 + ')');
+	});
+
+</script>
 </head>
 <body <?php body_class(); ?>>
 <div class="overlay"></div>
